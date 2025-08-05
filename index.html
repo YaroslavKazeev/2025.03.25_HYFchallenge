@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Green Light - Driving School</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1><a href="#Home">Green Light - Driving School</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#trialLesson">Trial Lesson</a></li>
+          <li>
+            <a href="#PricesPackages">Prices & Packages</a>
+          </li>
+          <li><a href="#AboutUs">About Us</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Home" class="container">
+        <div class="container-column">
+          <h2>Welcome to Green Light</h2>
+          <p>
+            Our driving school stands apart from larger institutions by putting
+            students at the center of everything we do. We understand that
+            becoming a confident driver requires more than just technical skills
+            - it demands personalized attention and support.
+          </p>
+          <p>
+            Rather than treating you as just another number, we create a
+            nurturing environment where we help you overcome driving anxiety and
+            build confidence behind the wheel. Our dedicated approach ensures
+            every student receives the individualized care needed to succeed,
+            transforming fear into competence through patient guidance and
+            understanding.
+          </p>
+          <video id="driftVideo" controls>
+            <source src="Drift.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="container-column">
+          <img
+            src="Home.jfif"
+            alt="The young man in a convertible facing the sunrise"
+          />
+        </div>
+      </section>
+      <section id="trialLesson" class="container">
+        <div class="container-column">
+          <h2>Trial Lesson</h2>
+          <p>
+            During your complimentary trial lesson, you'll have the opportunity
+            to experience our school's teaching approach firsthand while our
+            instructor assesses your current driving abilities.
+          </p>
+          <p>
+            This evaluation period allows us to tailor a personalized learning
+            path specifically suited to your skill level and learning needs. At
+            the conclusion of the trial lesson, your instructor will provide
+            detailed feedback and recommend the most appropriate
+            <a href="#PricesPackages">lessons package</a>
+            for your continued development. that suits you best.
+          </p>
+          <br />
+          <p>
+            <em
+              >Let's try our lesson, we'll get in touch with you as soon as you
+              leave your contact data:</em
+            >
+          </p>
+          <form action="/submit-form" method="POST">
+            <div>
+              <div>
+                <label>Given name</label
+                ><input type="text" name="givenName" required />
+              </div>
+              <div>
+                <label>Surname</label
+                ><input type="text" name="surname" required />
+              </div>
+            </div>
+            <div>
+              <div><label>Email</label><input type="email" name="email" /></div>
+              <div><label>Telephone</label><input type="tel" name="tel" /></div>
+            </div>
+            <input class="btn" type="button" name="formSubmit" value="Submit" />
+          </form>
+        </div>
+        <div class="container-column">
+          <img
+            src="trialLesson.jpg"
+            alt="The female student and the male instructor during the driving lesson"
+          />
+        </div>
+      </section>
+      <section id="PricesPackages" class="container">
+        <div class="container-column">
+          <h2>Prices & Packages</h2>
+          <ul>
+            <li>All packages include both initial exam and re-exam</li>
+            <li>
+              Lessons are tailored to your actual needs - your instructor will
+              indicate when you're ready for the exam
+            </li>
+            <li>Unused lessons are fully refundable</li>
+          </ul>
+        </div>
+        <div class="container-column">
+          <div class="pricing">
+            <table>
+              <thead>
+                <tr>
+                  <th>Package Name</th>
+                  <th>Number of Lessons</th>
+                  <th>Amount €</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Package 1</td>
+                  <td>10</td>
+                  <td>944</td>
+                </tr>
+                <tr>
+                  <td>Package 2</td>
+                  <td>15</td>
+                  <td>1260</td>
+                </tr>
+                <tr>
+                  <td>Package 3</td>
+                  <td>20</td>
+                  <td>1785</td>
+                </tr>
+                <tr>
+                  <td>Package 4</td>
+                  <td>25</td>
+                  <td>2048</td>
+                </tr>
+                <tr>
+                  <td>Package 5</td>
+                  <td>30</td>
+                  <td>2310</td>
+                </tr>
+                <tr>
+                  <td>Package 6</td>
+                  <td>35</td>
+                  <td>2888</td>
+                </tr>
+                <tr>
+                  <td>I Love Driving</td>
+                  <td>Unlimited</td>
+                  <td>3675</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section id="AboutUs" class="container">
+        <div class="container-column">
+          <h2>About Us</h2>
+          <h3>Dick - Instructor and Owner</h3>
+          <p>
+            Since Richard or Dick, as he prefers to be called by his friends,
+            arrived as a refugee with his family in the Netherlands in 2019, he
+            has transformed his journey into a remarkable success story. His
+            establishment of Green Light driving school represents not just
+            personal achievement, but a commitment to helping others navigate
+            their own path.
+          </p>
+          <p>
+            As Dick explains, his motivation stems from two powerful drivers:
+            "To be able to give something back, but especially because this is a
+            great opportunity for newcomers." Through his business, he actively
+            seeks to support students from diverse backgrounds, creating a
+            positive cycle of opportunity and integration.
+          </p>
+        </div>
+        <div class="container-column">
+          <img
+            src="AboutUs.jpg"
+            alt="Richard Feynman with his family in front of his van"
+          />
+        </div>
+      </section>
+      <section id="Contact" class="container">
+        <div class="container-column">
+          <h2>Contact</h2>
+          <p>Phone number: <a href="tel:+31684794232">+31684794232</a></p>
+          <p>
+            WhatsApp:
+            <a href="https://wa.me/+31684794232" target="_blank" rel="nofollow"
+              ><img src="whatsapp.png" alt="WhatsApp Logo"
+            /></a>
+          </p>
+          <p>
+            Please feel free to call us during these hours: on weekdays: 8:00 AM
+            - 9:00 PM, on weekends: 10:00 AM - 8:00 PM
+          </p>
+          <p>
+            Address:
+            <a href="https://maps.app.goo.gl/f7GNexyFXfhufZSy8"
+              >Schaepmanstraat 86, 6702 AZ Wageningen</a
+            >
+          </p>
+          <p>
+            Please mention that you found us through this site or in another
+            way. We need this information to make our advertisement effective.
+          </p>
+          <p>
+            If you like learning in our school, please, leave a review on Google
+            <a href="https://g.page/r/autoschool/review">here</a>.
+          </p>
+          <button id="scrollToTop" class="btn">Scroll to Top</button>
+        </div>
+        <div class="container-column">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39324.32749797689!2d5.6293144!3d51.9746093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7ab50f95f89c9%3A0x5b292b362a125b9!2sAuto%20Rijschool%20Groen%20Licht!5e0!3m2!1sen!2snl!4v1742507290403!5m2!1sen!2snl"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a href="https://www.linkedin.com/in/yaroslavkazeev/" target="_blank"
+        >Webpage design - Yaroslav Kazeev
+        <img
+          src="LinkedIn_logo.png"
+          alt="LinkedIn logo"
+          class="linkedin-logo"
+        />
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
